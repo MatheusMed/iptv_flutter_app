@@ -50,17 +50,7 @@ class _VideoPlayerAppState extends State<VideoPlayerApp> {
         backgroundColor: Colors.black,
         appBar: AppBar(
           title: Text(widget.name),
-          actions: const [
-            // ChromeCastButton(
-            //   onButtonCreated: (controller) {
-            //     setState(() => _controllerChrome = controller);
-            //     _controllerChrome.addSessionListener();
-            //   },
-            //   onSessionStarted: () {
-            //     _controllerChrome.loadMedia(widget.link);
-            //   },
-            // ),
-          ],
+          actions: const [],
         ),
         body: Stack(
           alignment: Alignment.center,
